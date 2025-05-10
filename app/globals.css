@@ -3,6 +3,13 @@
 	themes: "forest";
 }
 
+html,
+body {
+	max-width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
 .text-gradient {
 	color: #4a7e5c;
 	background-image: linear-gradient(45deg, #4a7e5c, #1db88e 50%, #1fb8ab 100%);

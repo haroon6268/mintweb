@@ -30,7 +30,7 @@ const Testimonials = () => {
 				<h2 className="text-4xl font-bold py-1">What our Clients Say</h2>
 				<p className="py-1">Read User Reviews</p>
 			</div>
-			<div className="flex flex-col md:flex-row space-x-4 py-10 space-y-4">
+			<div className="flex flex-col md:flex-row space-x-4 py-10 space-y-4 items-center">
 				<TestimonialCard text={copy[0].text} name={copy[0].name} />
 				<TestimonialCard text={copy[1].text} name={copy[1].name} />
 				<TestimonialCard text={copy[2].text} name={copy[2].name} />
