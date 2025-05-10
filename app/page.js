@@ -6,13 +6,14 @@ import Testimonials from "./ components/Testimonials";
 import LoveLanguage from "./ components/LoveLanguage";
 import Pricing from "./ components/Pricing";
 import { Stats } from "./ components/Stats";
+import AnimatedTestimonials from "./ components/AnimatedTestimonials";
 
 export default function Home() {
 	return (
 		<div>
 			<Navbar />
 			<Hero />
-			<Testimonials />
+			<AnimatedTestimonials />
 			<LoveLanguage />
 			<Pricing />
 			<Stats />

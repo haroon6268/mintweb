@@ -20,17 +20,17 @@ const interiorAndExteriorPoints = [
 const Pricing = () => {
 	return (
 		<div
-			className="bg-base-200 min-h-[180vh] lg:min-h-[80vh] flex justify-center items-center flex-col"
+			className="bg-base-200 min-h-[170vh] lg:min-h-[80vh] flex justify-center items-center flex-col"
 			style={{
 				backgroundImage:
 					"radial-gradient(25% 35% at 50% 55%, #97E1B030 0%, #2ABAA115 60%, #2A283A 100%)",
 			}}
 		>
 			<div className="space-y-2 p-2 text-center">
-				<h2 className="text-5xl tracking-wide text-center font-semibold">
+				<h2 className="text-4xl tracking-wide text-center font-semibold">
 					Pricing
 				</h2>
-				<p className="text-lg text-centerkk">
+				<p className="text-md text-centerkk">
 					Pick the{" "}
 					<span className="text-accent font-semibold">Perfect Wash</span> for
 					your car's needs.
