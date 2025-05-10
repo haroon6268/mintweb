@@ -3,7 +3,13 @@ import { motion } from "framer-motion";
 
 const AnimatedTestimonials = () => {
 	return (
-		<div className="bg-base-200 py-12">
+		<div
+			className="bg-base-200 py-12"
+			style={{
+				backgroundImage:
+					"radial-gradient(85% 85% at 100% 100%, #97E1B030 0%, #2ABAA115 60%, #2A283A 100%)",
+			}}
+		>
 			<div className="mb-8 px-4">
 				<h3 className=" text-4xl font-semibold text-center">Testimonials</h3>
 				<p className="text-center text-neutral-300 text-sm mt-2 max-w-lg mx-auto">

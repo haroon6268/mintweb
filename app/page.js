@@ -7,6 +7,7 @@ import LoveLanguage from "./ components/LoveLanguage";
 import Pricing from "./ components/Pricing";
 import { Stats } from "./ components/Stats";
 import AnimatedTestimonials from "./ components/AnimatedTestimonials";
+import Footer from "./ components/Footer";
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 			<LoveLanguage />
 			<Pricing />
 			<Stats />
+			<Footer />
 		</div>
 	);
 }
