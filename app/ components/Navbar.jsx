@@ -35,7 +35,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<a className="btn btn-ghost text-xl text-primary font-extrabold tracking-tigheter">
-					MintDetail
+					<img src="/logo.png" className="h-[40px]" />
 				</a>
 			</div>
 			<div className="navbar-center hidden lg:flex">

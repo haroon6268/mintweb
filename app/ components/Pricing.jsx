@@ -23,16 +23,17 @@ const Pricing = () => {
 			className="bg-base-200 min-h-[180vh] lg:min-h-[80vh] flex justify-center items-center flex-col"
 			style={{
 				backgroundImage:
-					"radial-gradient(30% 40% at 50% 55%, #4a7e5c40 0%, #4a7e5c30 60%, #161212 100%)",
+					"radial-gradient(25% 35% at 50% 55%, #97E1B030 0%, #2ABAA115 60%, #2A283A 100%)",
 			}}
 		>
-			<div className="space-y-2 ">
-				<h2 className="text-6xl tracking-wide text-center font-semibold">
+			<div className="space-y-2 p-2 text-center">
+				<h2 className="text-5xl tracking-wide text-center font-semibold">
 					Pricing
 				</h2>
 				<p className="text-lg text-centerkk">
-					Pick the <span className="text-gradient">Perfect Wash</span> for your
-					car's needs.
+					Pick the{" "}
+					<span className="text-accent font-semibold">Perfect Wash</span> for
+					your car's needs.
 				</p>
 			</div>
 			<div className="flex md:flex-row flex-col md:space-x-8 space-y-8 md:space-y-0 mt-4">

@@ -1,4 +1,7 @@
 import "./globals.css";
+import { Epilogue } from "next/font/google";
+
+const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Mint",
@@ -7,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" data-theme="forest">
+		<html lang="en" data-theme="forest" className={epilogue.className}>
 			<body>{children}</body>
 		</html>
 	);

@@ -7,7 +7,12 @@ export const Stats = () => {
 		<div className="mx-auto max-w-3xl px-4 py-20 md:py-24">
 			<h2 className="mb-8 text-center text-base sm:text-lg md:mb-16 font-semibold">
 				Over
-				<span className="text-gradient font-semibold"> 1000 Clients </span>
+				<span className="text-gradient font-semibold">
+					<p style={{ transform: "skew(14deg)", transform: "rotate(3deg)" }}>
+						{" "}
+						1000 Clients
+					</p>{" "}
+				</span>
 				Satisfied
 			</h2>
 

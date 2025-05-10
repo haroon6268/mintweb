@@ -5,7 +5,7 @@ const PricingCard = ({ points, name, isPopular }) => {
 		<div className="card md:w-76 lg:w-96 bg-base-100 shadow-sm mt-8">
 			<div className="card-body relative">
 				{isPopular ? (
-					<span className="badge badge-xs badge-warning">Most Popular</span>
+					<span className="badge badge-xs badge-secondary">Most Popular</span>
 				) : (
 					<span className="h-4"></span>
 				)}

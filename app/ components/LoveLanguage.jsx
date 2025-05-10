@@ -2,11 +2,15 @@ import React from "react";
 
 const LoveLanguage = () => {
 	return (
-		<div className="flex flex-col min-h-[60vh] lg:min-h-[50vh] bg-base-100 justify-center">
+		<div className="flex flex-col min-h-[60vh] lg:min-h-[50vh] bg-primary text-base-200 justify-center">
 			<div className=" md:ml-20 p-5">
-				<h2 className="text-5xl font-bold md:max-w-[70%]">
+				<h2 className="md:text-5xl text-4xl  font-bold md:max-w-[70%]">
 					For Mint, Car Washing is our{" "}
-					<span className="text-gradient">Love Language</span>
+					<span className="text-gradient">
+						<p style={{ transform: "skew(14deg)", transform: "rotate(3deg)" }}>
+							Love Language
+						</p>
+					</span>
 				</h2>
 			</div>
 			<div className="md:mr-20 p-5 lg:flex items-end justify-end">
